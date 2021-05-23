@@ -9,8 +9,6 @@ function App() {
   function handleChange(event) {
     const { value, name } = event.target;
 
-
-
     setFullName((prevValue) => {
       if (name === "fName") {
         return {
